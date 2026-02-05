@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -21,4 +22,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "SnapRoll"
 include(":app")
+include(":core")
+include(":domain")
+include(":data")
+include(":feature")
+include(":design-system")
+
  
