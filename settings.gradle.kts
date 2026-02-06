@@ -25,7 +25,9 @@ include(":app")
 include(":core")
 include(":domain")
 include(":data")
-include(":feature")
+include(":feature:upload")
+include(":feature:snap")
+include(":feature:mypage")
 include(":design-system")
 
  
